@@ -1,23 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
+
+<head>
+  <title>Home</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <!--
       Need a visual blank slate?
       Remove all code in `styles.css`!
     -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="script.js"></script>
+</head>
+
+<body>
+  <main>
+    <nav class="countrysidepanel">
+      <h1 id="countryname" contenteditable="true">Country Name</h1>
+      <script>
+        var content = document.getElementById("countryname"));
+
+// 1. Listen for changes of the contenteditable element
+content.addEventListener('input', function(event) {
+  // 2. Retrive the text from inside the element
+  console.log(content.innerHTML);
+});
+</script>
+      </nav>
+      <nav class="uppermenu">
+        <h2 id="population">0</h2>
+      </nav>
+      <nav class="containerarea">
+      </nav>
+      <nav class="sidemenu">
+        <button class="sidebutton1">Overview</button>
+        <button class="sidebutton2">Build</button>
+        <button class="sidebutton3">Research</button>
+        <button class="sidebutton4">Achieve</button>
+        <button class="sidebutton5">Future</button>
+      </nav>
     </main>
   </body>
 </html>

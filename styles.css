@@ -6,7 +6,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: black;
-  background-color: white;
+  background-color: rgb(255, 255, 255)
 }
 
 nav {
@@ -43,4 +43,128 @@ main {
 h1 {
   font-weight: bold;
   font-size: 1.5rem;
+  position: absolute;
+}
+
+.countrysidepanel {
+  position: absolute;
+  width: 750px;
+  margin-top: 10px;
+  height: 51px;
+  background-color: #666;
+  color: white;
+  box-shadow: 5px 5px 15px #666;
+  border: none;
+  z-index: 3;
+}
+
+.uppermenu {
+  position: absolute;
+  width: 543px;
+  margin-top: 10px;
+  margin-left: 750px;
+  height: 51px;
+  background-color: #666;
+  color: white;
+  box-shadow: 5px 5px 15px #666;
+  border: none;
+  z-index: 3;
+}
+
+#population {
+  font-weight: bold;
+  font-size: 1.5rem;
+  position: absolute;
+}
+
+.containerarea {
+  box-shadow: 5px 5px 15px #555;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: auto;
+  height: 650px;
+  width: 1100px;
+}
+
+.sidemenu {
+  height: 600px;
+  width: 192.344px;
+  position: absolute;
+  margin-top: -600px;
+  background-color: #555;
+  box-shadow: 5px 5px 15px #555;
+}
+
+.sidebutton1 {
+  position: absolute;
+  width: 212.5px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: -500px;
+  font-size: 17.5px;
+  border: 0px;
+  background-color: #888;
+  box-shadow: 5px 5px 15px #555;
+  color: white;
+  margin-left: -px;
+}
+
+.sidebutton2 {
+  position: absolute;
+  width: 212.5px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: -375px;
+  font-size: 17.5px;
+  border: 0px;
+  background-color: #888;
+  color: white;
+  box-shadow: 5px 5px 15px #555;
+  margin-left: -px;
+}
+
+.sidebutton3 {
+  position: absolute;
+  width: 212.5px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: -250px;
+  font-size: 17.5px;
+  border: 0px;
+  background-color: #888;
+  box-shadow: 5px 5px 15px #555;
+  color: white;
+  margin-left: -px;
+}
+
+.sidebutton4 {
+  position: absolute;
+  width: 212.5px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: -125px;
+  font-size: 17.5px;
+  border: 0px;
+  background-color: #888;
+  box-shadow: 5px 5px 15px #555;
+  color: white;
+  margin-left: -px;
+}
+
+.sidebutton5 {
+  position: absolute;
+  width: 212.5px;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 0px;
+  font-size: 17.5px;
+  border: 0px;
+  background-color: #888;
+  box-shadow: 5px 5px 15px #555;
+  color: white;
+  margin-left: -px;
 }
